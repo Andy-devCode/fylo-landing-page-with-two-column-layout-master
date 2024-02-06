@@ -1,0 +1,99 @@
+    .nav-bar_img{
+        width: 15rem;
+        margin-left: 3rem;
+    }
+    .nav-bar_menu li a{
+        font-size: 1.6rem;
+        color: var(--DesaturatedBlue);        
+    }
+    .about{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_img{
+        width: 50%;
+        order: 2;
+    }
+    .about_img img{
+        width: 70%;
+    }
+    .about_text{
+        width: 40%;
+        font-size: 1.8rem;
+        align-items: center;
+        text-align: left;
+    }
+    .about_text h1{
+        width: 80%;
+        letter-spacing: .1rem;
+    }
+    .about_text p{
+        width: 80%;
+        font-size: 1.6rem;
+    }
+    .about_text__form{
+        flex-direction: row;
+        width: 80%;
+    }
+    .about_text__form input{
+        max-width: 30rem;
+    }
+    .about_text__form button{
+        max-width: 15rem;
+        order: 2;
+    }   
+    .about_text__form button:active .about_text__form p{
+        display: inline-block;
+    }
+    .inv span{
+        order: 3;
+    }
+    main > div{
+        background-image: url(https://andy-devcode.github.io/fylo-landing-page-with-two-column-layout-master/assets/bg-curve-desktop.svg);
+    }
+    .main-content{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-content__img{
+        width: 50vw;
+        order: 3;
+    }
+    .main-content__text{
+        width: 50vw;
+    }
+    .access{
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+        height: 18rem;
+    }
+    .access-text{
+        width: 40%;
+        max-width: 40rem;
+        font-size: 1.6rem;
+        color: #fff;
+        padding:0;
+    }
+    .access-form{
+        width: 60%;
+    }
+    .access-form .resp{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .access-form .resp input{
+        max-width: 40rem;
+    }
+    .access-form .resp button{
+        max-width: 15rem;
+    }
+    .footer-sec{
+        flex-direction: row;
+        gap: 20rem;
+    }
+    footer .social-media{
+        width: 30rem;
+    }
